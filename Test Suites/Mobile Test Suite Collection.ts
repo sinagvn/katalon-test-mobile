@@ -67,5 +67,25 @@
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Smoke Tests for API Demos App</testSuiteEntity>
       </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Mobile</groupName>
+            <profileName>default</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>deviceName</key>
+                  <value>emulator-5558 (Android SDK built for arm64 - Android 9)</value>
+               </entry>
+               <entry>
+                  <key>deviceId</key>
+                  <value>emulator-5558</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>Android</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Smoke Tests for API Demos App</testSuiteEntity>
+      </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>
